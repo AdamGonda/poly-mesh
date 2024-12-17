@@ -109,7 +109,7 @@ const controller = new Controller();
 const agents = [
   new Agent("A", 0, 0, controller.handleEvent.bind(controller)),
   new Agent("B", 5, 5, controller.handleEvent.bind(controller)),
-  new Agent("C", 15, 15, controller.handleEvent.bind(controller)) // Out of range initially
+  new Agent("C", 9, 9, controller.handleEvent.bind(controller)) // Out of range initially
 ];
 
 // Create the simulation with a proximity radius of 10 units
